@@ -1,0 +1,123 @@
+
+#catalagos1,#catalagos2,#catalagos3,#catalagos4{
+    width: 19%;
+    height: 20rem;
+    padding: 5px;
+    font-size: 13pt;
+    text-align: center;
+    border: 1px solid rgb(212, 211, 210);
+    background-repeat: no-repeat;
+    background-position: top;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 11px;
+    background-size: contain;
+}
+
+#catalagos1,#catalagos2,#catalagos3,#catalagos4:hover{
+    cursor: pointer;
+}
+.iphone1{
+    background-image: url('../Imagens/iphone1.jpg');
+}
+.iphone2{
+    background-image: url('../Imagens/iphone2.jpg');
+}
+.iphone3{
+    background-image: url('../Imagens/iphone3.jpg');
+}
+.iphone4{
+    background-image: url('../Imagens/iphone4.jpg');
+}
+.computador1{
+    background-image: url('../Imagens/computador1.jpg');
+}
+.computador2{
+    background-image: url('../Imagens/computador2.jpg');
+}
+
+.computador3{
+    background-image: url('../Imagens/computador3.jpg');
+}
+
+.computador4{
+    background-image: url('../Imagens/computador4.jpg');
+}
+.bebidas1{
+    background-image: url('../Imagens/Bebidas1.jpg');
+    z-index: 1;
+}
+.bebidas2{
+    background-image: url('../Imagens/Bebidas2.jpg');
+}
+.bebidas3{
+    background-image: url('../Imagens/Bebidas3.jpg');
+}
+.bebidas4{
+    background-image: url('../Imagens/Bebidas4.jpg');
+}
+.fone1{
+    background-image: url('../Imagens/headset1.jpg');
+}
+.fone2{
+    background-image: url('../Imagens/headset2.jpg');
+}
+.fone3{
+    background-image: url('../Imagens/headset3.jpg');
+}
+.fone4{
+    background-image: url('../Imagens/headset4.jpg');
+}
+.placa1{
+    background-image: url('../Imagens/Placa1.jpg');
+}
+.placa2{
+    background-image: url('../Imagens/Placa2.jpg');
+}
+.placa3{
+    background-image: url('../Imagens/Placa3.jpg');
+}
+.placa4{
+    background-image: url('../Imagens/Placa4.jpg');
+}
+.eletrodomestico1{
+    background-image: url('../Imagens/eletrodomestico1.jpg');
+}
+.eletrodomestico2{
+    background-image: url('../Imagens/eletrodomestico2.jpg');
+}
+.eletrodomestico3{
+    background-image: url('../Imagens/eletrodomestico3.jpg');
+}
+.eletrodomestico4{
+    background-image: url('../Imagens/eletrodomestico4.jpg');
+}
+.monitor1{
+    background-image: url('../Imagens/monitor1.jpg');
+   
+}
+.monitor2{
+    background-image: url('../Imagens/monitor2.jpg');
+}
+.monitor3{
+    background-image: url('../Imagens/monitor3.jpg');
+}
+.monitor4{
+    background-image: url('../Imagens/monitor4.jpg');
+}
+.cursor{
+    cursor: pointer;
+    transform: scale(1.02, 1.02);
+    box-shadow: 0 0 0.2rem black;
+}
+@media(max-width:1000px){
+
+    #catalagos1,#catalagos2,#catalagos3,#catalagos4{
+        width: 80%;
+        height: 22rem;
+        margin-top: 15px;
+        padding: 5px;
+        font-size: 13pt;
+    }
+}

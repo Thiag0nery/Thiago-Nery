@@ -1,0 +1,406 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+html,body{
+    height: 100%;
+}
+hr{
+    margin: 20px 0;
+}
+header.Style-header{
+    height: 4.5rem;
+    display: flex;
+    position: fixed;
+    box-shadow: 0 0 1rem 0.3rem rgb(31, 31, 31);
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    width: 100%;
+    z-index: 9999;
+    background-color: #181818;
+    /*background-color: rgb(7, 7, 7);*/
+}
+div.logo{
+    width: 14.4rem;
+    height: 3rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('../Imagens/rsz_kisspng-logo-target-corporation-retail-brand-lexington-5bf69efd12c8967287940215428892130769.png');
+}
+nav.Style-nav{
+    width: 20rem;
+}
+nav.Style-nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+nav.Style-nav li{
+
+    list-style: none;
+}
+nav.Style-nav a{
+    text-decoration: none;
+    color: white; 
+    
+    font-size: 14.5pt;
+}
+nav.Style-nav a:hover{
+    color: #d61933;
+    font-weight: 600;
+    text-shadow: 3px 5px rgb(0, 0, 0);
+}
+
+/* PESQUISA */
+.container-pesquisa{
+    width: 100%;
+    height: 32.8rem;
+    background: linear-gradient(to right, #ece9e6, #ffffff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pesquisa{
+    width: 52%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 3rem;
+    /* background-color: #d61933; */
+}
+.pesquisa #pesquisaInput[type=text]{
+    width: 80%;
+    padding: 3px 10px;
+    font-size: 13.5pt;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 3rem;
+}
+.pesquisa button#ButtonPesquisa{
+    width: 18.8%;
+    font-size: 13.5pt;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid black;
+    height: 3rem;
+}
+.pesquisa button#ButtonPesquisa:hover{
+    background-color: #dbdbdb;
+}
+
+/* Produtos */
+#container-produtos{
+    padding: 20px 2%;
+    width: 100%;
+}
+.ContainerTitulo{
+    text-align: center;
+    font-size: 20pt;
+}
+.produtos{
+    width: 20%;
+    padding: 7px;
+    height: 25rem;
+    border-radius: 11px;
+    /* background-color: #181818; */
+    border: 1px solid rgb(212, 211, 210);
+}
+
+.caixa-produtos{
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-around;
+    align-items: baseline;
+}
+.itens{
+    height: 15rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.produtos:hover{
+   cursor: pointer;
+   transform: scale(1.02, 1.02);
+   box-shadow: 0 0 0.2rem black;
+}
+.item1{
+    background-image: url('../Imagens/1xg.jpg');
+}
+.item2{
+    background-image: url('../Imagens/1xg\ \(2\).jpg');
+}
+.item3{
+    background-image: url('../Imagens/1xg\ \(4\).jpg');
+}
+.item4{
+    background-image: url('../Imagens/1xg\ \(1\).jpg');
+}
+.item5{
+    background-image: url('../Imagens/1xg\ \(5\).jpg');
+}
+.item6{
+    background-image: url('../Imagens/1xg\ \(7\).jpg');
+}
+.item7{
+    background-image: url('../Imagens/1xg\ \(8\).jpg');
+}
+.item8{
+    background-image: url('../Imagens/1xg\ \(6\).jpg');
+}
+.titulo-item{
+    font-weight: 100;
+    margin-top: 15px;
+    font-size: 13pt;
+}
+.Preco{
+    margin-top: 15px;
+}
+.PrecoItens{
+    color: #d61933;
+}
+.catalagoNav{
+    width: 100%;
+    display: flex;
+    /* background-color: cadetblue; */
+    margin-top: 20px;
+    padding: 0 1% ;
+}
+.flex-slot{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.slot:hover{
+    background-color: #9e9e9e73;
+}
+.catalagoNav  img{
+    width: 4.5rem;
+    padding: 4px;
+    display: block;
+    margin: 0 auto; 
+}
+.focus{
+    background-color: #d61933;
+}
+.slot{
+    width: 8rem;
+    height: 7rem;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.slot:hover{
+    cursor: pointer;
+}
+.container-catalago{
+    margin-top: 20px;
+}
+.catalago{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.d-flex{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.titulo-catalago{
+    padding: 15px;
+    font-size: 15pt;
+    width: 35%;
+    background-color: #9e9e9e73;
+}
+/* Nav-click */
+#nav-click{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/*Formulario*/
+.container-form{
+    width: 100%;
+    height: 34rem;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.w-50{
+    width: 50%;
+}
+.dis-flex{
+    display: flex;
+}
+#formulario{
+    color: black;
+    width: 100%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    height: 18.8rem;
+    padding: 10px 25px;
+    background-color:#f7fafa;
+}
+#formulario h1{
+    text-align: center;
+
+}
+form{
+    margin-top: 5px;
+}
+#formulario form label{
+    display: block;
+    font-size: 12.5pt;
+    margin-top: 12px;
+
+}
+#formulario form input{
+    width: 95%;
+    height: 2.5rem;
+    padding: 2px 3px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: 0;
+}
+input:focus{
+    box-shadow: 0 0 1px 1px black;
+}
+#formulario form input#email{
+    width: 100%;
+}
+
+#formulario form textarea{
+    width: 100%;
+    outline: none;
+    border: 1px solid #ccc;
+    resize: none;
+    height: 5rem;
+    padding: 5px;
+    border-radius: 5px; 
+}
+#formulario form textarea:focus{
+    border: 1px solid black;
+}
+#formulario form button#enviar{
+    display: block;
+    border-radius: 5px; 
+    outline: none;
+    border: 1px solid #ccc;
+    margin: 10px auto;
+    width: 15%;
+    height: 2rem;
+}
+#formulario form button#enviar:hover{
+    background-color: #dbdbdb;
+}
+footer .Style-footer{
+    height: 4.5rem;
+    color: white;
+    display: flex;
+    box-shadow: 0 0 1rem 0.6rem rgb(83, 83, 83);
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    width: 100%;
+    background-color: #181818;
+}
+@media(max-width:1000px){
+    nav.Style-nav a {
+        font-size: 12.5pt;
+    }
+    /*PESQUISA*/
+    .pesquisa{
+        display: block;
+        width: 90%;
+    }
+    #nav-click{
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .pesquisa #pesquisaInput[type=text]{
+        width: 100%;
+    }
+    .pesquisa button#ButtonPesquisa{
+        width: 40%;
+        display: block;
+        margin: 10px auto;
+    }
+    /* PRECO */
+    .caixa-produtos{
+        
+        flex-wrap: wrap;
+    }
+    .produtos{
+        width: 40%;
+        margin-top: 15px;
+    }
+    .Preco{
+        margin-top: 20px;
+    }
+    /* catalago */
+    .catalago{
+        width: 100%;
+        justify-content: center;
+        height: 5rem;
+    }
+    .catalagoNav{
+        display: block;
+    }
+    .flex-slot{
+        display: block;
+    }
+    .slot{
+        margin-top: 12px;
+    }
+    .container-catalago {
+        margin-top: 0;
+    }
+    .teste {
+        display: flex;
+    }
+    #nav-click {
+        margin-top: 10px;
+        /* display: flex; */
+        /* flex-wrap: wrap; */
+        justify-content: space-around;
+    }
+    /*FORMULARIO*/
+    #formulario{
+        width: 90%;
+        height: 25rem;
+    }
+    .container-form{
+        height: 40rem;
+    }
+    #formulario form input{
+        width: 100%;
+        height: 2rem;
+    }
+    #formulario form button#enviar{
+        width: 30%;
+        height: 3rem;
+        font-size: 13.5pt;
+    }
+    .dis-flex{
+        display: block;
+    }
+    .w-50{
+        width: 100%;
+    }
+    #formulario form input.selecao {
+        width: 88.5%;
+    }
+    .titulo-catalago {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

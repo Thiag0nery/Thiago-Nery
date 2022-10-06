@@ -7,7 +7,6 @@ function loading(){
    
 }
 
-/* PARTE  */
 var btnCriar = document.getElementById('Criar')
 var btnContinuarAcesso = document.getElementById('ContinuarAcesso')
 btnContinuarAcesso.addEventListener('click', Acessar)
@@ -26,7 +25,7 @@ function Acessar(){
                
         if(pass[i].name == inpNome && pass[i].Passoword == inpSenha){
 
-            return window.location.href = 'index.html'
+         window.location.href = 'index.html'
             
         }
         if(pass[i].name != inpNome && pass[i].Passoword != inpSenha){
@@ -34,20 +33,8 @@ function Acessar(){
              alert("Usuario ou senha incoretos")
             
         }
-        
-       
-        
-        
+     
+ 
     }          
     
-                
-     
-    
-
-    // if(inpNome == 'Thiago' && inpSenha == 5){
-    //     window.location.href = 'index.html'
-    // }
-    // else{
-    //     alert('Usuario ou senha incoretos! ')
-    // }
 }

@@ -64,8 +64,7 @@ window.addEventListener("load", loading())
 function loading(){
     JSON.parse(localStorage.getItem("BankUser")).forEach(a => {
        BankUser.push(a)
-        alert("corno")
-      
+       
       })
    
 }
